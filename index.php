@@ -27,7 +27,7 @@ $fb->photobase = __DIR__;
 
 // Specify where the csv file is saved. The location must be read-write if we're going to use it. It's much faster to have this than to not to.
 // Defaults to $fb->filecache/fastback.csv
-// $fb->csvfile = '/mount/fastdisk/cachedirfastback_cache.csv';
+// $fb->csvfile = '/mount/fastdisk/cachedir/fastback_cache.csv';
 
 /*
  * User Permissions
