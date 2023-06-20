@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  fastback:
+    container_name: fastback
+    image: fastback:latest
+    ports:
+      - 8998:80
+    volumes:
+      - /nas/pictures/pic/2023/TripPix:/photos
+    restart: unless-stopped
