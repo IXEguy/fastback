@@ -212,7 +212,7 @@ git clone https://github.com/stuporglue/fastback.git
 
  * Copy `fastback/index.php` up a level into `/var/www/html/photos`
 ```
-cp fastabck/index.php .
+cp fastback/index.php .
 ```
 
  * If your photo directories are NOT in `/var/www/html/photos` then edit
